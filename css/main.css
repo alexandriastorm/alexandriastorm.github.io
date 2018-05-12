@@ -70,14 +70,14 @@ a:after {
 /* Header Wrap */
 .header {
   background: #1CBCAD;
-  background: url(../images/header-bg.jpg) no-repeat center top;
+  background: url(../images/wrapping-paper.gif) no-repeat center top;
   padding-top:140px;
   text-align:center;
   background-attachment: relative;
   background-position: center center;
   min-height: 500px;
   width: 100%;
-  
+
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
@@ -110,7 +110,7 @@ a:after {
   padding-top: 60px;
   padding-bottom: 60px;
   color: white;
-} 
+}
 
 .about h5, p {
   color: white;
@@ -204,11 +204,11 @@ body {
 
 @-webkit-keyframes fadeIn {
   0% {
-    opacity: 0; 
+    opacity: 0;
   }
 
   100% {
-    opacity: 1; 
+    opacity: 1;
   }
 }
 
@@ -239,7 +239,7 @@ body {
 
   100% {
     opacity: 1;
-  } 
+  }
 }
 
 .fadeIn {
