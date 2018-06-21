@@ -6,9 +6,32 @@ $(document).ready(function() {
 	$('#skills-link').click(scrollToSkills);
 	$('#experience-link').click(scrollToExperience);
 	$('#education-link').click(scrollToEducation);
-	$('#achievments-link').click(scrollToachievments);
+	$('#extracurriculars-link').click(scrollToExtracurriculars);
 	$('#contact-link').click(scrollToContact);
 
+	$('#mobile-navi-name').click(scrollToTop);
+	$('#mobile-about-me').click(scrollToAboutMe);
+	$('#mobile-skills').click(scrollToSkills);
+	$('#mobile-projects').click(scrollToProjects);
+	$('#mobile-experience').click(scrollToExperience);
+	$('#mobile-education').click(scrollToEducation);
+	$('#mobile-extracurriculars').click(scrollToExtracurriculars);
+	$('#mobile-contact').click(scrollToContact);
+
+	$('#arrow-up').click(scrollToTop);
+	$('#arrow-down').click(scrollToBottom);
+
+	// Mobile
+	$('#mobile-menu-open').click(function() {
+		$(this).hide();
+		$('#mobile-menu-close').show();
+		$('#links').show();
+	})
+	$('#mobile-menu-close').click(function() {
+		$(this).hide();
+		$('#mobile-menu-open').show();
+		$('#links').hide();
+	})
 
 	$(document).mouseup(function (e)
 	{
@@ -64,44 +87,30 @@ $(document).ready(function() {
 
 	    // if((bottom_of_screen > top_of_element) && (bottom_of_screen < bottom_of_element))
 	    if (isElementInViewport($('#java'))) {
-	        $('#java').slideOver('95%');
+	        $('#java').slideOver('90%');
 	    }
 	    if (isElementInViewport($('#python'))) {
-	        $('#python').slideOver('85%');
+	        $('#python').slideOver('80%');
 	    }
 	    if (isElementInViewport($('#html5'))) {
-	        $('#html5').slideOver('85%');
+	        $('#html5').slideOver('40%');
 	    }
 	    if (isElementInViewport($('#css3'))) {
-	        $('#css3').slideOver('85%');
+	        $('#css3').slideOver('50%');
 	    }
-	    if (isElementInViewport($('#swift'))) {
-	        $('#swift').slideOver('82%');
-	    }
-	    if (isElementInViewport($('#jQuery'))) {
-	        $('#jQuery').slideOver('77%');
+	    if (isElementInViewport($('#sql'))) {
+	        $('#sql').slideOver('30%');
 	    }
 	    if (isElementInViewport($('#javascript'))) {
 	        $('#javascript').slideOver('70%');
 	    }
-	    if (isElementInViewport($('#c-sharp'))) {
-	        $('#c-sharp').slideOver('60%');
-	    }
 	    if (isElementInViewport($('#scheme'))) {
-	        $('#scheme').slideOver('40%');
+	        $('#scheme').slideOver('20%');
 	    }
-	    if (isElementInViewport($('#spark'))) {
-	        $('#spark').slideOver('25%');
+	    if (isElementInViewport($('#jsp'))) {
+	        $('#jsp').slideOver('60%');
 	    }
-	    if (isElementInViewport($('#php'))) {
-	        $('#php').slideOver('20%');
-	    }
-	    if (isElementInViewport($('#ajax'))) {
-	        $('#ajax').slideOver('20%');
-	    }
-	    if (isElementInViewport($('#dot-net'))) {
-	        $('#dot-net').slideOver('15%');
-	    }
+
 	    if (isElementInViewport($('.tools-header'))) {
 	        $('#tools-and-other').animate({
 				marginRight: '3%'
@@ -207,13 +216,18 @@ var scrollToEducation = function() {
         scrollTop: $('#education').offset().top
     }, 500);
 };
-var scrollToachievments = function() {
+var scrollToExtracurriculars = function() {
 	closeMenu();
     $('html, body').animate({
-        scrollTop: $('#achievments').offset().top
+        scrollTop: $('#extracurriculars').offset().top
     }, 500);
 };
-
+var scrollToContact = function() {
+	closeMenu();
+	$('html, body').animate({
+        scrollTop: $('#contact').offset().top
+    }, 500);
+}
 var scrollToBottom = function() {
 	closeMenu();
 	$('html, body').animate({

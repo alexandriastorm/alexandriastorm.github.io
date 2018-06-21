@@ -7,7 +7,7 @@
 }
 body {
 font-family: 'bebas neue', 'oswald', 'Montserrat', sans-serif;
-font-size: 35px;
+font-size: 1.5rem;
 margin: 10px;
 background-color: #FFFFFF;
 
@@ -25,9 +25,9 @@ text-decoration: none;
 	z-index: 100;
 	position: fixed;
 	background-color: white;
-	box-shadow: 0px 0px 3px 0px gray;
-	font-size: 22px;
+	font-size: 2.2rem;
 	color: black;
+  margin-top: -10px;
 }
 
 .navigation-bar-left {
@@ -42,7 +42,7 @@ text-decoration: none;
 }
 #navi-name {
 	height: 100%;
-	font-size: 55px;
+	font-size: 3rem;
 	vertical-align: center;
 	margin: 15% 0 7% 2%;
 	text-decoration: none;
@@ -53,13 +53,9 @@ text-decoration: none;
 }
 #navigation-bar-right {
 	height: 75%;
-	/*margin-top: 20px;*/
 	margin-right: 20px;
 	float: right;
-	display: inline-block;
-	/*vertical-align: bottom;*/
-	/*padding: auto;*/
-	/*position: relative;*/
+	display: inline-flex;
 	vertical-align: bottom;
 }
 .bottom_aligner {
@@ -101,7 +97,7 @@ overflow: auto;
 .inner-section {
 width: 80%;
 margin: auto;
-font-size: 25;
+font-size: 1rem;
 padding-bottom: 20px;
 overflow: auto;
 background-color: #FFFFFF;
@@ -112,19 +108,21 @@ border: 10px solid transparent;
 border-image: url(images/header-box.png) 50 50 stretch;
 width: 30%;
 margin: 150px auto 150px;
-font-size: 50px;
+font-size: 1.5rem;
 padding: 1;
 display: block;
 text-align: center;
 font-family: 'bebas neue', 'oswald', 'Montserrat', sans-serif;
-  background-color: #FFFFFF;
 }
 
 #education {
 background-color: #FFFFFF
+padding-bottom: 50px;
+font-size: 1.5rem;
 }
 #education-body {
   background-color: #FFFFFF
+  font-size: 1.5rem;
 }
 
 
@@ -242,11 +240,12 @@ display: none;
 
 #about-me-description {
 width: 100%;
-font-size: 30px;
+font-size: 1.5rem;
 float: center;
 display: inline-block;
 clear: left;
 background-color: #FFFFFF
+padding-left: 100px;
 }
 #inner-description {
 width: 80%;
@@ -257,22 +256,27 @@ background-color: #FFFFFF
 
 /******SKILLS******/
 #skills {
-background-color: #FFFFFF;
+background-color: black;
 overflow: hidden;
+font-size: 1rem;
 font-family: 'Montserrat', sans-serif;
+padding-bottom: 100px;
 }
 #skills-header {
 width: 10%;
 font-family: 'Montserrat', sans-serif;
+color: white;
 /*padding: 0;*/
 }
 #languages {
-width: 55%;
+width: 75%;
 background-color: #FFFFFF
+font-size: 1rem;
 /*height: 50%;*/
 margin-left: 5%;
 /*padding-bottom: 20%;*/
 display: inline-block;
+color: #EFEFEFEF;
 font-family: 'Montserrat', sans-serif;
 }
 .progress-bar {
@@ -281,20 +285,20 @@ width: 200%;
 margin-top: 2%;
 margin-bottom: 2%;
 position: relative;
+color: black;
+
 font-family: 'Montserrat', sans-serif;
 }
 .progress {
 position: absolute;
 width: 5%;
+color: #EFEFEFEF;
 font-family: 'Montserrat', sans-serif;
 height: 100%;
-background-color: black;
+background-color: white;
 }
 
 
-#education {
-  background-color: #FFFFFF
-}
 
 /******PROJECTS******/
 #projects {
@@ -346,6 +350,7 @@ font-family: 'Montserrat', sans-serif;
 }
 .projects-description {
 text-align: left;
+font-size: 1.5rem;
 font-family: 'Montserrat', sans-serif;
 }
 .split-img {
@@ -405,6 +410,81 @@ border-top: 1px solid #FFFFFF;
 padding-top: 3%;
 }
 
+
+
+
+
+/******SKILLS******/
+
+.progress-bar {
+	height: 1%;
+	width: 100%;
+	border: .5px solid #EFEFEFEF;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	position: relative;
+}
+.progress {
+	position: absolute;
+	width: 5%;
+	height: 100%;
+	background-color: #EFEFEFEF;
+}
+.skills-icon {
+	width: 17px;
+	height: 17px;
+}
+#tools-and-other {
+	width: 37%;
+	margin-right: -50%;
+	display: inline-block;
+	float: right;
+}
+.tools-left {
+	display: inline-block;
+	float: left;
+	clear: left;
+}
+.tools-right {
+	display: inline-block;
+	float: right;
+	clear: right;
+}
+#tools {
+	/*width: 50%;*/
+	/*margin-right: -50%;*/
+	/*display: inline-block;*/
+	/*float: right;*/
+	margin-left: 15%;
+}
+.tools-header {
+	margin-left: 5%;
+}
+.tool {
+	margin-bottom: 5%;
+}
+.tools-column {
+	display: inline-block;
+}
+#other-tools-mobile {
+	display: none;
+}
+#other-tools {
+	/*text-align: center;*/
+	width: 85%;
+	margin-left: 5%;
+	margin-top: 3%;
+	border: 1px solid black;
+    color: white;
+	/*display: none;*/
+}
+#others-header {
+	margin-left: 14%;
+  color: white;
+}
+#other-tools p {
+	text-align: center;
+}
 
 /******FOOTER******/
 .footer {
