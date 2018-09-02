@@ -3,6 +3,7 @@ $(document).ready(function() {
 	$('#navi-name').click(scrollToTop);
 	$('#about-me-link').click(scrollToAboutMe);
 	$('#projects-link').click(scrollToProjects);
+	$('#networking-link').click(scrollToNetworking);
 	$('#skills-link').click(scrollToSkills);
 	$('#experience-link').click(scrollToExperience);
 	$('#education-link').click(scrollToEducation);
@@ -13,6 +14,7 @@ $(document).ready(function() {
 	$('#mobile-about-me').click(scrollToAboutMe);
 	$('#mobile-skills').click(scrollToSkills);
 	$('#mobile-projects').click(scrollToProjects);
+	$('#mobile-networking').click(scrollToNetworking);
 	$('#mobile-experience').click(scrollToExperience);
 	$('#mobile-education').click(scrollToEducation);
 	$('#mobile-extracurriculars').click(scrollToExtracurriculars);
@@ -197,6 +199,14 @@ var scrollToProjects = function() {
         scrollTop: $('#projects').offset().top
     }, 500);
 };
+
+var scrollToNetworking= function() {
+	closeMenu();
+    $('html, body').animate({
+        scrollTop: $('#networking').offset().top
+    }, 500);
+};
+
 var scrollToSkills = function() {
 	closeMenu();
     $('html, body').animate({
