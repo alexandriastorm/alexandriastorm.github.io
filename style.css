@@ -388,10 +388,22 @@ float: left;
 text-align: center;
 font-family: 'Montserrat', sans-serif;
 }
+
+
 .universal-img {
 width: 60%;
 height: auto;
 }
+
+.capital-img {
+padding-top: 10%;
+width: 50%;
+height: auto;
+position: relative;
+padding-left: 25%;
+}
+
+
 .universal-right {
 /*margin-top: 0;*/
 border-left: 1px solid #FFFFFF;
