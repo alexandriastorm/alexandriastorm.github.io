@@ -338,9 +338,8 @@ font-family: 'Montserrat', sans-serif;
 text-align: center;
 }
 .projects-img {
-/*width: 130%;*/
-height: 100%;
-margin-left: -15%;
+width: auto;
+height: 70%;
 /*height: auto;*/
 margin-top: auto;
 margin-bottom: auto;
