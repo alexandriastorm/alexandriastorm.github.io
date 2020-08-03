@@ -1,532 +1,794 @@
-<HTML>
+<!DOCTYPE html>
 
+<html lang="zxx">
 <head>
-	<link type="text/css" rel="stylesheet" media='screen and (min-width: 1000px)' href="style.css" />
-	<link rel='stylesheet' media='screen and (max-width: 1000px)' href="mobile.css" />
-	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,100,300' rel='stylesheet' type='text/css'>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-	<script type='text/javascript' src='script.js'></script>
-	<script src="js/jquery.form.min.js"></script>
-	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+  <meta charset="utf-8">
+  <title>Alexandria Storm | Portfolio </title>
 
-	<title>Alexandria Storm</title>
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
 </head>
 
 <body>
-	<div class="navigation-bar">
-		<a id="navi-name">Alexandria Storm</a>
-		<div id="navigation-bar-right">
-			<div class="bottom_aligner"></div>
-			<a id="about-me-link" class="navigation-bar-element">
-					About
-				</a>
-			<a id="education-link" class="navigation-bar-element">
-					Education
-				</a>
-			<a id="skills-link" class="navigation-bar-element">
-					Skills
-				</a>
-			<a id="experience-link" class="navigation-bar-element">
-					Experience
-				</a>
-			<a id="projects-link" class="navigation-bar-element">
-					Projects
-				</a>
-				<a id="networking-link" class="navigation-bar-element">
-						Networking
-					</a>
-
-
-
-		</div>
-	</div>
-	<a>
-
-			<link rel="icon" href="images/googleretreat.jpg">
-		<div id="frontpage-main-photo"  href="images/googleretreat.jpg">
-
-		</div>
-
-		<!--
-			START CANVAS
-		-->
-		<!--
-		START CANVAS
-	-->
-		<div class="canvas">
-			<!-- ABOUT ME -->
-			<div id="about-me">
-				<div class="header" id="about-me-header" style="font-size: 1rem;">
-					<h1>About Me</h1>
-
-
-		</div>
-				<div id="about-me-body">
-						<!-- <div id="slideshow">
-						<div id="slideshow9"></div>
-						<div id="slideshow9"></div>
-						<div id="slideshow2"></div>
-						<div id="slideshow3"></div>
-						<div id="slideshow4"></div>
-						<div id="slideshow5"></div>
-						<div id="slideshow6"></div>
-						<div id="slideshow7"></div>
-						<div id="slideshow8"></div>
-						<div id="slideshow10"></div>
-						<div id="slideshow11"></div>
-					</div> -->
-
-					<div id="about-me-description">
-						<div id="inner-description">
-							<h1 id="description-header" style="font-size: 1.5rem;line-height: 85px;margin-bottom: 100px;">I am an Entrepreneur,  Computer Programmer, and Photographer.</h1>
-
-							<img class="projects-img" src="images/headshot.jpg" style="padding:;height: 75%;padding-left: 10%;padding-right: 10%;padding-bottom: 5%;" 10 25px align=left 20px>
-								<p> I am a Junior at UC Berkeley studied Cognitive Science and Computer Science. I am interested in the intersection of Cognitive Science and computational models, specifically
-									in the field of Artificial Intelligence and Natural Language Processing. Additionally, I am always excited to expand my experience in Business Development and Finace in relation to Tech.
-								<p> I am a UC Berkeley CS Scholar with leadership and public speaking experience. I am passionate about diversity, inclusion, innovation, and entrepreneurship.
-									Through my Girls Who Code Chapter I increased the number of women in AP Computer Science from 11% to 48% in one year. My article on how I did this is available to read
-									on my 	<a href="https://blog.usejournal.com/how-two-high-school-students-increased-female-computer-science-enrollment-by-300-50a4ad45c29e"> Medium Blog </a>.
-								<p> Last summer I interned at Azuqua, a start up that was just acquired by Okta. There I worked on the UX Front-End Engineering team,
-									and I also participated in the <a href="https://code.likeagirl.io/my-summer-in-the-google-codeu-engineering-program-475666b322a2"> Google CodeU program.</a>
-								<p> My hobbies include digital photography and playing classical music. I have played Trumpet and French Horn for over 10 years and music, both modern and
-								classical, is something that I am passionate about.
-								<p> Now having completed my Sophomore year at Berkeley, I am working as an Explore (SWE/PM) Intern at Microsoft on Bing this summer.
-						</div>
-					</div>
-				</div>
-			</div>
-	</a>
-	</div>
-
-
-	<!-- EDUCATION -->
-	<div class="inner-section" id="education">
-		<div id="education-header" class="header" style="font-size: 1.5rem;padding-top: 5rem;">
-			<h1>Education</h1>
-		</div>
-		<div class="universal-row last-row" id="education-row">
-			<div class="universal-left">
-	<!-- <h1 class="universal-organization">EDUCATION</h1>-->
-				<img class="universal-img" src="images/berkeley.png" style= "padding-top: 9rem;" />
-			</div>
-			<div class="universal-right">
-				<div class="universal-header">
-					<h2 class="universal-title">UC Berkeley Cognitive Science and Computer Science</h2>
-					<h4 class="universal-date">Graduating in May 2021</h4>
-				</div>
-				<ul>
-					<li>CS 61A Structure and Interpretation of Computer Programs: Python, SQL, Scheme</li>
-					<li>CS 61B Data Structures: Java </li>
-					<li>CS 70 Discrete Mathematics and Probability Theory </li>
-					<li>CS 188 Artificial Intelligence </li>
-					<li>MCB C61 Neurobiology</li>
-					<li>Data 8 Introduction to Data Science: Python </li>
-					<li>Cogntive Science 1</li>
-					<li>Math 1A Calculus </li>
-
-					<p> Activites include Society of Women Engineers, Berkeley Women in Business, AWE, and bridges Multiracial Student Union </li>
-				</ul>
-			</div>
-		</div>
-	</div>
-
-
-
-	<!-- SKILLS -->
-	</div>
-	<div id="skills">
-		<div class="inner-section" id="skills">
-			<div class="header" id="skills-header">
-				<h1>Skills</h1>
-			</div>
-			<div id="languages">
-				<h1>Languages and Tools</h1>
-				<i class="devicon-python-plain"></i> Python
-				<div class="progress-bar">
-					<div id="python" class="progress"></div>
-				</div>
-				<i class="devicon-java-plain"></i> Java
-				<div class="progress-bar">
-					<div id="java" class="progress"></div>
-				</div>
-				<i class="devicon-javascript-plain"></i> JavaScript
-				<div class="progress-bar">
-					<div id="javascript" class="progress"></div>
-				</div>
-				<i class="devicon-css3-plain"></i> JSP
-				<div class="progress-bar">
-					<div id="jsp" class="progress"></div>
-				</div>
-				<i class="devicon-css3-plain"></i> CSS3
-				<div class="progress-bar">
-					<div id="css3" class="progress"></div>
-				</div>
-				<i class="devicon-html5-plain"></i> HTML5
-				<div class="progress-bar">
-					<div id="html5" class="progress"></div>
-				</div>
-				<img class="skills-icon" src="images/sql.png" />&nbsp;SQL
-				<div class="progress-bar">
-					<div id="sql" class="progress"></div>
-				</div>
-				<img class="skills-icon" src="images/scheme.png" />&nbsp;Scheme
-				<div class="progress-bar">
-					<div id="scheme" class="progress"></div>
-				</div>
-			</div>
-		</div>
-
-		<div id="other-tools">
-			<h1 id="others-header">          Applications and Tech Stacks</h1>
-			<p>
-				ReactJs &bull; IntelliJ &bull; LaTeX &bull; Visual Studio Code &bull; Atom &bull; Apache Maven &bull; Illustrator &bull; Photoshop
-			</p>
-		</div>
-
-
-<img class="capital-img" src="images/CAPITAL GROUP.jpg" />
-
-	</div>
-	</div>
-	<div id="experience">
-		<div class="inner-section">
-			<div id="experience-header" class="header">
-				<h1>Experience</h1>
-			</div>
-			<div id="experience-body">
-
-
-
-				<div class="universal-row">
-					<div class="universal-left">
-						<!---	<h1 class="universal-organization">Azuqua</h1> -->
-						</p>
-						<img class="universal-img" src="images/microsoft.jpg" />
-					</div>
-					<div class="universal-right">
-						<div class="universal-header">
-
-							<h2 class="universal-title" style="font-size: 2rem;">Microsoft Explore Intern (SWE/PM)</h2>
-							<h4 class="universal-date">May 2019 - August 2019</h4>
-						</div>
-						<ul>
-							<li> Program Manager + Software Engineering Intern</li>
-							<li> Contributing to Bing AI Platform and Cognitive Services</li>
-							<li> Deploying a Microsoft project utilizing Artificial Intelligence and Natural Language Processing</li>
-						</ul>
-					</div>
-				</div>
-
-				<div class="universal-row">
-					<div class="universal-left">
-						<!---	<h1 class="universal-organization">Azuqua</h1> -->
-						</p>
-						<img class="universal-img" src="images/azuqua.png" />
-					</div>
-					<div class="universal-right">
-						<div class="universal-header">
-
-							<h2 class="universal-title" style="font-size: 2rem;">Software Engineering Intern</h2>
-							<h4 class="universal-date">June 2018 - August 2018</h4>
-						</div>
-						<ul>
-							<li> Software Engineering Intern at Azuqua, an API Integration Platform for SaaS Application in Seattle, Washington.</li>
-							<li> Worked on UX Engineering Team with PM and UX Designer on redesigning Web User Interface of FLO Designer</li>
-							<li> Utilized tech stacks like Javascript, React, CSS, and CSS Modules</li>
-							<li> Participated in full scrum process from feature specification, design, code review, UX review, bug fixing, and testing.</li>
-							<li>Shipped the new declarative UI automation tool used by companies like Airbnb, GM, Adobe, etc.</li>
-							<li>Featured speaker on company podcast with Dave Darrington on <a href="https://www.youtube.com/watch?v=SPceqh04y-o&authuser=0"> "The Connector".</a>
-							<li>Contact: Max Cutler max@azuqua.com</li>
-						</ul>
-					</div>
-				</div>
-
-
-
-				<div class="universal-row">
-					<div class="universal-left">
-
-						<img class="universal-img" src="images/google.png" />
-					</div>
-					<div class="universal-right">
-						<div class="universal-header">
-							<h2 class="universal-title" style="font-size: 2rem;">Google CodeU  Engineering Program</h2>
-							<h4 class="universal-date">May 2018 - August 2018</h4>
-						</div>
-						<ul>
-							<li> Accepted to a 12-week development program to collaborate with a team and a Google Engineer Project Advisor.</li>
-							<li> Created and deployed a web chat app utilizing the Google Translate API and Google AppEngine
-							<li>Implemented industry practices such as: contributing to open source software, conducting team code reviews,
-								extending an existing codebase and designing new components and interfaces
-							<li> Invited to Google Student Retreat in August 2018 in Mountainview, California.
-							<li> View my <a href="https://team18-codeu.appspot.com"> team's project.</a>
-								<li> Read about my experience featured in Code Like a Girl in my <a href="https://team18-codeu.appspot.com"> Medium Article.</a>
-						</ul>
-
-					</div>
-				</div>
-
-
-
-							<div class="universal-row last-row">
-								<div id="gtri" class="universal-left">
-									<h1 class="universal-organization">
-								<img class="hidden-mobile-img, universal-img" src="images/medium.jpeg" />
-							</div>
-							<div class="universal-right">
-								<div class="universal-header">
-									<h2 class="universal-title" style="font-size: 2rem;">Medium Contributor</h2>
-									<h4 class="universal-date">June 2018 - Present</h4>
-								</div>
-								<ul>
-									<li>Author of a <a href="https://medium.com/@alexandyasna"> Medium Blog </a> about Tecnhnology, Euntrenership, and Diversity. </li>
-									<li>Published author for international security company Auth0's <a href="https://goextend.io/blog/a-day-at-auth0-and-world-product-day-with-glenn-block"> Auth0 Extend blog</a>
-									<li>Writer for<a href="https://code.likeagirl.io/@alexandyasna">  Code Like a Girl, </a>  an organization for women's empowerment in tech. </li>
-									</ul>
-
-								</div>
-							</div>
-
-							<div id="fm-medium-embed"></div>
-
-
-				<div class="universal-row last-row">
-					<div id="gtri" class="universal-left">
-						<h1 class="universal-organization"></h1>
-					<img class="hidden-mobile-img, universal-img" src="images/gwc.jpg" />
-				</div>
-				<div class="universal-right">
-					<div class="universal-header">
-						<h2 class="universal-title" style="font-size: 2rem;">President/Founder and Student Ambassador</h2>
-						<h4 class="universal-date">2015 - 2017</h4>
-					</div>
-					<ul>
-						<li>I founded a local <a href="https://www.girlswhocode.com">Girls Who Code club</a> in Seattle, Washington through the national organization</li>
-						<li>Surged enrollment of girls in AP Computer Science 300% in one year.</li>
-						<li>Organized coding lessons, events, speakers, and instructors from companies like Google, Microsoft, + <a href="	https://www.garfieldmessenger.org/3422/articles/features/knowledge-is-power/"> SpaceX </a>
-						<li>Initiated a middle school youth outreach to encourage minorities and girls to learn Computer Science
-					</ul>
-				</div>
-			</div>
-
-			<div class="universal-row last-row">
-				<div id="gtri" class="universal-left">
-					<h1 class="universal-organization">
-				<img class="hidden-mobile-img, universal-img" src="images/scholars.jpg" />
-			</div>
-			<div class="universal-right">
-				<div class="universal-header">
-					<h2 class="universal-title" style="font-size: 2rem;">UC Berkeley College of Engineering CS Scholar</h2>
-					<h4 class="universal-date">January 2016 - Present/h4>
-				</div>
-				<ul>
-					<li>Selected for a <a href="https://eecs.berkeley.edu/cs-scholars"> cohort program </a> of underrepresented students of color and women in Engineering through the UC Berkeley EECS department</li>
-					<li>Specialized labs, discussions, and extra lecturing for Computer Science classes and Electrical Engineering such as CS 61A
-						(Structure + Interpretation of Computer Programs),	CS 61B (Data Structures) and CS 70 (Discrete Mathematics and Probability Theory).</li>
-						<li>Partnered with companies for mentoring, internships, and research</li>
-					</ul>
-
-				</div>
-			</div>
-
-
-
-				<div class="universal-row">
-					<div class="universal-left">
-
-						<img class="universal-img" src="images/yeoc.SVG" />
-					</div>
-					<div class="universal-right">
-						<div class="universal-header">
-							<h2 class="universal-title" style="font-size: 2rem;">UW Foster Business School</h2>
-							<h4 class="universal-date">May 2018 - August 2018</h4>
-						</div>
-						<ul>
-							<li> Volunteer for UW Foster's Young Executives of Color Business development program for underrepresented high school students.</li>
-							<li> 	View informational page <a href="https://foster.uw.edu/academics/degree-programs/undergraduate-programs/diversity-services/young-executives-of-color-yeoc/"> here.</a>
-							</ul>
-						</div>
-					</div>
-
-
-
-
-				<div class="universal-row last-row">
-					<div id="gtri" class="universal-left">
-						<h1 class="universal-organization">Multiracial Student Union</h1>
-						<img class="hidden-mobile-img, universal-img" src="images/msu.jpg" />
-					</div>
-					<div class="universal-right">
-						<div class="universal-header">
-							<h2 class="universal-title" style="font-size: 2rem;">President and Founder</h2>
-							<h4 class="universal-date">2016 - 2017</h4>
-						</div>
-						<ul>
-
-							<li>President and founder of Multiracial Student Union at Garfield. We discussed racial, economic, and gender issues in relation to Multicultural Americans.</li>
-							<li> Our members were diverse, covering many ethnic backgrounds. I wrote and gave a speech to 1,700 students on Veteran’s Day about civil rights and the military.</li>
-							<li>Organized coding lessons, events, speakers, and instructors from companies like Google, Microsoft, + SpaceX</li>
-							<li> I was invited to testify at an NAACP rally for the board of Seattle Public Schools on behalf of Multiracial Students.
-								<li>
-									Twitter photos by Critical Mixed Race Studies <a href="https://twitter.com/CMRSmixedrace?lang=en">here.</a> Interview about organization by Garfield Messenger <a href="https://www.garfieldmessenger.org/3408/articles/features/the-multiracial-student-union/">here.</a>
-						</ul>
-					</div>
-				</div>
-
-				<div class="universal-row last-row">
-					<div id="gtri" class="universal-left">
-						<h1 class="universal-organization">Democratic National Committee</h1>
-						<img class="hidden-mobile-img, universal-img" src="images/patty.jpeg" />
-					</div>
-					<div class="universal-right">
-						<div class="universal-header">
-							<h2 class="universal-title" style="font-size: 2rem;">Volunteer</h2>
-							<h4 class="universal-date">2015 - 2017</h4>
-						</div>
-						<ul>
-							<li>I have experience working for state and federal political campaigns through volunteering for the Hillary Clinton campaign and other local elections, such as Jay Inslee, Patty Murray, and Cyrus Habib. </li>
-							<li> I organized canvassing and analyzed the eligible voter database to assist low-income and low voting turn out neighborhoods to register and vote.</li>
-							<li> I additionally was a caucus leader in the Washington State primary elections.
-								<li> I reported the election results for local gun control legislation on Television.
-									<li> The picture to the left is me and U.S. Senator Patty Murray.
-						</ul>
-					</div>
-				</div>
-
-
-
-
-
-				<!-- PROJECTS -->
-				<div id="projects">
-					<div class="inner-section">
-						<div class="header">
-							<h1>Projects</h1>
-						</div>
-
-
-						<div class="projects-row">
-							<div class="projects-left">
-								<h2>BearMaps</h2>
-								<p class="projects-description">
-									I independently developed a browser-based map application of the East Bay that supports zooming and routing using A* algorithm, based on the Open Street Maps project and Apache Maven system.
-								</p>
-							</div>
-							<div class="projects-right">
-								<img class="projects-img" src="images/bearmaps.png" />
-							</div>
-						</div>
-
-						<div class="projects-row">
-							<div class="projects-left">
-
-								<img class="projects-img" src="images/ml.png" />
-								</a>
-							</div>
-							<div class="projects-right">
-								<h2>Machine Learning Language Identification</h2>
-								<p class="projects-description">
-									This project explores different areas of machine learning, neural networks, linear regression, digit classification, and NLP.
-									I implemented a binary perceptron with 1 and -1 output labels, and updating weights was done with a direction argument and multiplier.
-									Additionally, I built a neural network that utilizes the ReLU operation for non-linearity.  <br>
-								</p>
-							</div>
-						</div>
-
-						<div class="projects-row">
-							<div class="projects-left">
-
-								<img class="projects-img" src="images/hm.png" />
-								</a>
-							</div>
-							<div class="projects-right">
-								<h2>Ghostbusters - Bayesian Networks and Hidden Markov Models</h2>
-								<p class="projects-description">
-									The goal is the hunt down scared invisible ghosts. The Pacman agent is able to detect their locations with
-									calculation of their manhattan distance apart. I implemented inference to track these ghosts and utilized Bayes' nets to approximate.  <br>
-								</p>
-							</div>
-						</div>
-
-
-												<div class="projects-row">
-													<div class="projects-left">
-
-														<img class="projects-img" src="images/rl.png" />
-														</a>
-													</div>
-													<div class="projects-right">
-														<h2>Reinforcement Learning</h2>
-														<p class="projects-description">
-															A visual demonstration of a gridworld MDP where I wrote a Value Iteration Agent, Asynchronous Value Iteration Agent, Prioritized Sweep Iteration, Q-Learning Agent, and Epislon Greedy Agent.  <br>
-														</p>
-													</div>
-												</div>
-
-
-						<div class="projects-row">
-							<div class="projects-left">
-
-								<img class="projects-img" src="images/scheme.png" />
-								</a>
-							</div>
-							<div class="projects-right">
-								<h2>Scheme Interpreter</h2>
-								<p class="projects-description">
-									This project is an Interpreter written in Python for the entire language of Scheme, a dialect of Lisp. The Interpreter parses the source code and performs its behavior directly; translates source code into an intermediate representation and immediately
-									executes this and explicitly execute stored code made by the interpreter system. I additionally utilized tail recursion to increase storage efficiency, and macros to allow the language itself to be extended by the user. <br>
-
-								</p>
-							</div>
-						</div>
-						<div class="projects-row">
-							<div class="projects-left">
-								<h2>Gravity Physics Simulator </h2>
-								<p class="projects-description">
-									Animated simulation of objects accounting for the gravitational forces as demonstrated by Newton's Law of Universal Gravitation.
-								</p>
-							</div>
-							<div class="projects-right">
-								<img class="projects-img" src="images/physics.png" />
-								</a>
-							</div>
-						</div>
-						<div class="projects-row last-row">
-							<div class="projects-left">
-
-								<img class="projects-img" src="images/maps.png" />
-								</a>
-							</div>
-							<div class="projects-right">
-								<h2>Yelp-Style Map</h2>
-								<p class="projects-description">
-									Browser-based Voronoi visualization program of restaurant ratings at Berkeley using machine learning and the Yelp academic dataset
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- Social Media -->
-				<div id="networking">
-					<div class="inner-section">
-						<div class="header">
-							<h1>Networking</h1>
-						</div>
-<a class="twitter-grid" data-limit="50" href="https://twitter.com/axstorm24/timelines/1036142977926672385?ref_src=twsrc%5Etfw">Networking</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-							</div>
-						</div>
-					</div>
-				</div>
-
-
-				<div class="footer">
-					<div id="social-media-bar">
-						<a href="https://www.twitter.com/axstorm24" target="_blank">
-									<img class="icon" src="images/twitter.png" />
-								</a>
-						<a href="https://www.linkedin.com/in/alexandria-storm-713206133" target="_blank">
-									<img class="icon" src="images/linkedin.png" />
-								</a>
-						<a href="https://github.com/alexandriastorm" target="_blank">
-									<img class="icon" src="images/github.png" />
+
+
+  <header class="navigation fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" a href="resume.pdf">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li> -->
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- hero area -->
+  <section class="hero-area bg-primary" id="parallax">
+    <div class="container">
+      <div class="row" STYLE="MARGIN-TOP:20%">
+        <div class="col-lg-11 mx-auto">
+          <h1 class="text-white font-tertiary">Alexandria Storm <br> Engineer, Photographer, Entrepreneur</h1>
+
+        </div>
+      </div>
+    </div>
+    <div class="layer-bg w-100">
+      <img class="img-fluid w-100" style="height:100%" src="images/illustrations/leaf-bg.png" alt="bg-shape">
+    </div>
+    <div class="layer" id="l2">
+      <img src="images/illustrations/dots-cyan.png" alt="bg-shape">
+    </div>
+    <div class="layer" id="l3">
+      <img src="images/illustrations/nothing.png" alt="bg-shape">
+    </div>
+    <div class="layer" id="l4">
+      <img src="images/illustrations/nothing.png" alt="bg-shape">
+    </div>
+    <div class="layer" id="l5">
+      <img src="images/illustrations/leaf-yellow.png" alt="bg-shape">
+    </div>
+    <div class="layer" id="l6">
+      <img src="images/illustrations/leaf-cyan.png" alt="bg-shape">
+    </div>
+    <div class="layer" id="l7">
+      <img src="images/illustrations/nothing.png" alt="bg-shape">
+    </div>
+    <div class="layer" id="l8">
+      <img src="images/illustrations/nothing.png" alt="bg-shape">
+    </div>
+    <div class="layer" id="l9">
+      <img src="images/illustrations/nothing.png" alt="bg-shape">
+    </div>
+    <!-- social icon -->
+    <ul class="LIST-unstyled ml-5 mt-3 position-relative zindex-1">
+      <li class="mb-3"><a class="text-white" href="https://linkedin.com/in/alexandria-storm"><i class="ti-linkedin"></i></a></li>
+      <li class="mb-3"><a class="text-white" href="mailto:alexandriastorm99@gmail.com"><i class="ti-email"></i></a></li>
+      <li class="mb-3"><a class="text-white" href="https://github.com/alexandriastorm"><i class="ti-github"></i></a></li>
+      <li class="mb-3"><a class="text-white" href="https://twitter.com/axstorm24"><i class="ti-twitter"></i></a></li>
+      <li class="mb-3"><a class="text-white" href="https://medium.com/@alexandriastorm/"><i class="ti-desktop"></i></a></li>
+      <li class="mb-3"><a class="text-white" href="https://dribbble.com/alexandriastorm/"><i class="ti-dribbble"></i></a></li>
+    </ul>
+
+    <!-- /social icon -->
+  </section>
+  <!-- /hero area -->
+
+
+</head>
+  <!-- about -->
+  <!-- <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto text-center">
+          <p class="font-secondary paragraph-lg text-dark">I am a Senior at UC Berkeley studying Cognitive and Computer Science. I am passionate about diversity and inclusion and exploring the interactions of Artificial Intelligence, Natural Language Processing, and Cognitive Science. My biggest hobby
+            is being a professional photography, where my work has been used for brands like Calvin Klein.
+          </p>
+          <p class="font-secondary paragraph-lg text-dark"> I was featured in Forbes.
+          </p>
+          <a href="about.html" class="btn btn-transparent">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- /about -->
+
+
+
+
+
+<!-- awards -->
+<section class="section position-relative" style="padding-top:5%">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">Engineering Experience</h2>
+      </div>
+
+
+
+      <div class="d-flex" style="padding-bottom:1.5rem">
+        <div class="mr-lg-5 mr-3">
+            <img src="images/experience/m.png" style="height:2rem;"alt="bg-shape"></i>
+        </div>
+
+        <div>
+          <p class="text-dark mb-1">May 2020 - August 2020</p>
+          <h4>Microsoft Software Engineering Intern </h4>
+          <h7>Bing QnA Natural Language Understanding - Artificial Intelligence + Research</h7>
+          <p class="mb-0 text-light"> SWE intern on Quantus QnA Query Intelligence NLP group
+              <p class="mb-0 text-light"> Delivered baseline and fine-tuned two <strong>multilingual</strong> models for <strong>market</strong> and <strong>temporal</strong> binary BERT classifiers using <strong> adverserial training </strong>
+              <p class="mb-0 text-light"> Improved AUC and precision significantly from baseline and previous models, seeing an increase in AUC from <strong> 30 - 50% </strong> to <strong> 80%</strong>
+             <p class="mb-0 text-light">Spearheaded first ever evaulation for temporal and market classification models on non EN language (ES, DE, FR) at <strong> similar or higher AUC than EN </strong>, in line with Bing FY2021 Internationalization goals </a>
+               <p class="mb-0 text-light"> Generated quality large scale QnA labeled training and evaluaiton data
+                <p class="mb-0 text-light"> One of 3 interns selected for E+D WebXT showcase for Bing and presented project and results to Mikhail Parakhin, CVP of WebXT.
+        </div>
+      </div>
+      <br/>
+      <br/>
+
+      <div class="d-flex" style="padding-bottom:1.5rem">
+        <div class="mr-lg-5 mr-3">
+            <img src="images/experience/m.png" style="height:2rem"alt="bg-shape"></i>
+        </div>
+        <div>
+          <p class="text-dark mb-1">May 2019 - August 2019</p>
+          <h4>Microsoft Explore Intern</h4>
+          <h7>Bing Answers - Artificial Intelligence + Research</h7>
+          <p class="mb-0 text-light"> PM + Front End Software Engineering Intern on Bing Engineering.
+              <p class="mb-0 text-light"> Fully shipped feature on Answers Intelligence team on AI + Research Division and Natural Language Understanding Group.
+              <p class="mb-0 text-light">Improved triggering/querying throughout XAP, Azure CDN, + SnR.
+             <p class="mb-0 text-light">Presented for Microsoft Executives Harry Shum (EVP AI + Research), Richard Qian (CVP Bing Engineering) + Xiaodong Fang.
+                <p class="mb-0 text-light"> Utilized tech stacks like TypeScript, C#, Javascript, and ASP.NET.
+        </div>
+      </div>
+      <br/>
+      <br/>
+
+      <div class="d-flex" style="padding-bottom:1.5rem">
+        <div class="mr-lg-5 mr-3">
+            <img src="images/experience/icon-1.png" style="height:2rem"alt="bg-shape"></i>
+        </div>
+        <div>
+          <p class="text-dark mb-1">May 2018 - August 2018</p>
+          <h4>Azuqua Software Engineering Intern</h4>
+          <p class="mb-0 text-light"> Software Engineering Intern at Azuqua, an API Integration Platform for SaaS Application in Seattle, Washington.
+              <p class="mb-0 text-light"> Worked on UX Engineering Team with PM and UX Designer on redesigning Web User Interface of FLO Designer Utilized tech stacks like Javascript, React, CSS, and CSS Modules.
+                  <p class="mb-0 text-light">  Participated in full scrum process from feature specification, design, code review, UX review, bug fixing, and testing.
+                  <p class="mb-0 text-light"> Shipped the new declarative UI automation tool used by companies like Airbnb, GM, Adobe, etc.
+                      <p class="mb-0 text-light"> Featured speaker on company podcast with Dave Darrington on "The Connector
+        </div>
+      </div>
+
+
+      <div class="d-flex">
+        <div class="mr-lg-5 mr-3">
+            <img src="images/experience/Google.png" style="height:2rem"alt="bg-shape"></i>
+        </div>
+
+        <div>
+          <p class="text-dark mb-1">May 2018 - August 2018</p>
+          <h4>Google CodeU Engineering Program</h4>
+          <p class="mb-0 text-light"> Invited into a 12-week development program to collaborate with a team and a Google Engineer Project Advisor.
+              <p class="mb-0 text-light"> Created and deployed a web chat app utilizing the Google Translate API and Google AppEngine</a>
+              <p class="mb-0 text-light">Implemented industry practices such as: contributing to open source software, conducting team code reviews,
+              extending an existing codebase and designing new components and interfaces </a>
+             <p class="mb-0 text-light">Read about my experience featured in Code Like a Girl in my <a href="https://team18-codeu.appspot.com"> Medium Article.</a>
+          </p>
+        </div>
+      </div>
+
+
+<!-- education -->
+<section class="section position-relative">
+  <div class="container">
+      <div class="col-lg-12 text-center" style="margin-top:10%;margin-bottom:10%">
+        <h2 class="section-title">Education</h2>
+      </div>
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+              <img src="images/honors/berkeley.png" style="height:12rem"alt="bg-shape"></i>
+          </div>
+          <br/>
+          <div>
+            <p class="text-dark mb-1">2017 - 2021</p>
+            <h3 style="text-align:left">University of California, Berkeley</h3>
+            <p class="h3" style="text-align:left;font-size:1.3rem">Major in Cognitive Science and Minor in Computer Science</p>
+            <p class="mb-0 text-light" style="font-size:1.1rem">  CS 61A Structure and Interpretation of Computer Programs: Python, SQL, Scheme </p>
+            <p class="mb-0 text-light"style="font-size:1.1rem">   CS 61B Data Structures: Java </p>
+            <p class="mb-0 text-light"style="font-size:1.1rem">   CS 70 Discrete Mathematics and Probability Theory </p>
+            <p class="mb-0 text-light"style="font-size:1.1rem">  CS 188 Artificial Intelligence </p>
+            <p class="mb-0 text-light"style="font-size:1.1rem">  INFO 159 Natural Language Processing </p>
+            <p class="mb-0 text-light"style="font-size:1.1rem">  Data 8 Introduction to Data Science: Python </p>
+            <p class="mb-0 text-light"style="font-size:1.1rem">  MCB C61 Neurobiology </p>
+            <p class="mb-0 text-light"style="font-size:1.1rem">  Psych 117 Neuropsychology: Clinical Neurology </p>
+            <p class="mb-0 text-light"style="font-size:1.1rem">  Cog Sci C126 Perception </p>
+            <p class="mb-0 text-light"style="font-size:1.1rem">  Ling 100 Introduction Linguistics </p>
+            <p class="mb-0 text-light"style="font-size:1.1rem">  Ling 150 Sociolinguistics </p>
+          </div>
+
+      </div>
+  </div>
+
+  <!-- bg image -->
+  <img class="img-fluid edu-bg-image w-100" src="images/backgrounds/education-bg.png" alt="bg-image">
+</section>
+<!-- /education -->
+
+
+
+  <!-- skills -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-title">Programming Languages</h2>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+          <div class="card shadow text-center">
+            <div class="position-relative rounded-top progress-wrapper" data-color="#FF0061">
+              <div class="wave" data-progress="100%"></div>
+            </div>
+            <div class="card-footer bg-white">
+              <h4 class="card-title">Python</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+          <div class="card shadow text-center">
+            <div class="position-relative rounded-top progress-wrapper" data-color="#9370FF">
+              <div class="wave" data-progress="70%"></div>
+            </div>
+            <div class="card-footer bg-white">
+              <h4 class="card-title">Java/C#</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+          <div class="card shadow text-center">
+            <div class="position-relative rounded-top progress-wrapper" data-color="#5188FF">
+              <div class="wave" data-progress="50%"></div>
+            </div>
+            <div class="card-footer bg-white">
+              <h4 class="card-title">Javascript/TS</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+          <div class="card shadow text-center">
+            <div class="position-relative rounded-top progress-wrapper" data-color="#3535FF">
+              <div class="wave" data-progress="80%"></div>
+            </div>
+            <div class="card-footer bg-white">
+              <h4 class="card-title">HTML/CSS</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br/>
+  </section>
+  <h4 class="section-title text-center" style="margin-left:auto;margin-right:auto">Applications and Tech Stacks</h4>
+  <h4 class="card-title" style="text-align:center;margin-bottom:10%">ReactJs • IntelliJ • LaTeX • Visual Studio Code • Atom • Apache Maven • Illustrator • Photoshop • Android Studio • XCode • Google Collab</h4>
+
+<!-- /skills -->
+
+
+
+<!-- awards -->
+<section class="section position-relative">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">Awards + Achievements</h2>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+              <img src="images/honors/forbes.png" style="height:2rem"alt="bg-shape"></i>
+          </div>
+
+          <div>
+            <p class="text-dark mb-1">February 2020</p>
+            <h4>Featured in Forbes</h4>
+            <p class="mb-0 text-light">Interviewed for Forbes
+            about my experience as a founder and enginner</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+              <img src="images/honors/google.png" style="height:2rem"alt="bg-shape"></i>
+          </div>
+          <div>
+            <p class="text-dark mb-1">2019</p>
+            <h4>Google Scholarship Winner</h4>
+            <p class="mb-0 text-light">Velocity Systems Conference NY Scholarship </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+              <img src="images/honors/bloomberg.png" style="height:1.5rem"alt="bg-shape"></i>
+          </div>
+          <div>
+            <p class="text-dark mb-1">May 2020</p>
+            <h4> Bloomberg Women in Engineering Program</h4>
+            <p class="mb-0 text-light">Selected for New York Fly Out Engineering Program</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+              <img src="images/honors/berkeley.png" style="height:5rem"alt="bg-shape"></i>
+          </div>
+          <div>
+            <p class="text-dark mb-1">2018</p>
+            <h4>CAA Leadership Scholar</h4>
+            <p class="mb-0 text-light">UC Berkeley merit scholarship for leadership</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+              <img src="images/honors/engineering.png" style="height:2rem"alt="bg-shape"></i>
+          </div>
+          <div>
+            <p class="text-dark mb-1">2017 - Present</p>
+            <h4>Berkeley CS Scholar</h4>
+            <p class="mb-0 text-light">Selected for CS Scholars cohort class sections
+              and program by EECS Department
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+              <img src="images/honors/ab.png" style="height:2rem"alt="bg-shape"></i>
+          </div>
+          <div>
+            <p class="text-dark mb-1">October 2019</p>
+            <h4>Grace Hopper Conference 2020 Scholar</h4>
+            <p class="mb-0 text-light">Recieved full travel scholarship to attend GHC 2020 in Orlando, Florida with the
+            aspiring technologist cohort</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+              <img src="images/honors/gs.png" style="height:5rem"alt="bg-shape"></i>
+          </div>
+          <div>
+            <p class="text-dark mb-1">2019</p>
+            <h4>Goldman Sachs Engineering Essentials Program New York</h4>
+            <p class="mb-0 text-light">Selected out of 1000+ applicants for one week Goldman Sachs Engineering Undergraduate Camp</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+              <img src="images/honors/america.png" style="height:2rem"alt="bg-shape"></i>
+          </div>
+          <div>
+            <p class="text-dark mb-1">2019</p>
+            <h4>Bank of America Ignite with STEM Program New York</h4>
+            <p class="mb-0 text-light">Selected out of 4,000 applicants for Bank of America program at the New York City tower.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+              <img src="images/honors/cap_group.png" style="height:3rem"alt="bg-shape"></i>
+          </div>
+          <div>
+            <p class="text-dark mb-1">August 2018</p>
+            <h4>Capital Group CLIMB Finance Summit</h4>
+            <p class="mb-0 text-light">Selected for Finance Fly Out Program to Los Angeles </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+              <img src="images/honors/lwt.png" style="height:4rem"alt="bg-shape"></i>
+          </div>
+          <div>
+            <p class="text-dark mb-1">2018 - 2019</p>
+            <h4>2x Lesbians Who Tech Scholarship Winner</h4>
+            <p class="mb-0 text-light">Won the LWT Summit scholarship to attend
+            the conference in the San Francisco Castro District</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+              <img src="images/honors/startupgrind.png" style="height:2rem"alt="bg-shape"></i>
+          </div>
+          <div>
+            <p class="text-dark mb-1">February 2020</p>
+            <h4>StartUp Grind Scholar</h4>
+            <p class="mb-0 text-light">Recieved full scholarship from Anita Borg Systers to network with entrepreneurs and VCs
+            at International conference in Redwood City, CA</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+              <img src="images/honors/mit.png" style="height:5rem"alt="bg-shape"></i>
+          </div>
+          <div>
+            <p class="text-dark mb-1">September 2019</p>
+            <h4>HACK MIT Scholarship</h4>
+            <p class="mb-0 text-light">Recieved travel scholarship to participate in MIT Hackathon</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+              <img src="images/honors/bridge.png" style="height:3rem"alt="bg-shape"></i>
+          </div>
+          <div>
+            <p class="text-dark mb-1">May 2019</p>
+            <h4>Bridgewater Associates Immersion Program</h4>
+            <p class="mb-0 text-light">Fly out Finance program to Bridgewater Headquarters in Westport Conneticut</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+              <img src="images/honors/out.png" style="height:3rem"alt="bg-shape"></i>
+          </div>
+          <div>
+            <p class="text-dark mb-1">2018 - Present</p>
+            <h4>Out In Tech Fellow</h4>
+            <p class="mb-0 text-light">Selected as a fellow for LGBTQ Engineering Program</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+              <img src="images/honors/blackstone.png" style="height:3rem"alt="bg-shape"></i>
+          </div>
+          <div>
+            <p class="text-dark mb-1">2019</p>
+            <h4>Blackstone Future Women Innovator</h4>
+            <p class="mb-0 text-light">Selected for Women Innovators program in New York City </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+              <img src="images/honors/jpmorgan.png" style="height:2rem"alt="bg-shape"></i>
+          </div>
+          <div>
+            <p class="text-dark mb-1">2019</p>
+            <h4>JP Morgan Winning Women in Technology</h4>
+            <p class="mb-0 text-light">Selected to attend event in Columbus, Ohio</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+              <img src="images/honors/citi.png" style="height:3rem"alt="bg-shape"></i>
+          </div>
+          <div>
+            <p class="text-dark mb-1">1998</p>
+            <h4>Secondary School Certificate</h4>
+            <p class="mb-0 text-light">Cardiff School</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+              <img src="images/honors/deloitte.png" style="height:3rem"alt="bg-shape"></i>
+          </div>
+          <div>
+            <p class="text-dark mb-1">1998</p>
+            <h4>Secondary School Certificate</h4>
+            <p class="mb-0 text-light">Cardiff School</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- bg image -->
+  <img class="img-fluid edu-bg-image w-100" src="images/backgrounds/education-bg.png" alt="bg-image">
+</section>
+<!-- /awards -->
+
+<!-- testimonial -->
+<section class="section bg-primary position-relative testimonial-bg-shapes">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="section-title text-white mb-5">Projects</h1>
+      </div>
+      <div class="col-lg-10 mx-auto testimonial-slider">
+        <!-- slider-item -->
+        <div class="text-center testimonial-content">
+          <h3 class="text-white">Investing in Inclusion Conference</h4>
+          <h4 class="text-light mb-4">Co-Founder</h6>
+
+          <p class="text-white mb-4">Organized first conference ever for entrepreneurs of color to gain access to capital held at Adobe Headquarters in San Jose
+  <p class="text-white mb-4"> Negotiated sponsorships from companies and VCs such as Microsoft, Binomial, Hubspot, Impact America Fund, etc.
+  <p class="text-white mb-4"> Secured headline speakers such as CEO of Blavity Morgan DeBaun, Christie Pitts, Shaloo Garg, Aniyia Williams, and more
+  <p class="text-white mb-4"> Established demo day with awards for entrepreneurs of color flown by sponsorship dollars to pitch for Venture Capitalists
+      <p class="text-white mb-4"> Featured in Forbes interview for work in entrepreneurship
+        <br/>
+        <br/>
+          <br/>
+          <img class="img-fluid rounded-circle mb-4 d-inline-block" style="height:6rem"src="images/testimonial/i.png"
+            alt="client-image">
+
+        </div>
+        <!-- slider-item -->
+        <div class="text-center testimonial-content">
+          <h3 class="text-white">Microsoft Hackathon Project: "Captionary" Computer Vision for Accessibility</h3>
+          <h4 class="text-light mb-4">Developer</h4>
+          <p class="text-white mb-4">When somebody with a visual impairment searches on Bing (or Google), they may not be able to tell what each image is.
+To solve this problem, we created an image analyzer feature for Bing Images that reads out loud an accurate description of what is in each image displayed.
+  <p class="text-white mb-4"> For example, a photo might be described as “Barack Obama and Michelle Obama standing on a stage,” or “a black dog in a field of purple flowers.”
+This is compatible with both image upload and retrieving a link by hovering over an image. We improved upon the Azure Cognitive Services Computer Vision API, and utilized NLP to improve accurace.
+            <br/>
+            <br/>
+              <br/>
+          <img class="img-fluid rounded-circle mb-4 d-inline-block" style="height:6rem" src="images/testimonial/cv.jpg"
+            alt="client-image">
+
+        </div>
+        <!-- slider-item -->
+        <div class="text-center testimonial-content">
+          <h3 class="text-white">Girls Who Code Garfield High School</h3>
+          <h4 class="text-light mb-4">CEO, Funder</h4>
+          <p class="text-white mb-4">Founded chapter at Garfield High School in Seattle, Washington
+        <p class="text-white mb-4">  Organized coding lessons, events, speakers, and recruited instructors from companies like Google, Microsoft, + SpaceX
+          <p class="text-white mb-4">   Surged enrollment of girls in AP Computer Science 300% in one year
+            <p class="text-white mb-4"> Featured by Girls Who Code, CEO Reshma, and Google VP
+            <br/>
+            <br/>
+              <br/>
+          <img class="img-fluid rounded-circle mb-4 d-inline-block" style="height:6rem;width:6rem" src="images/testimonial/gwc.png"
+            alt="client-image">
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- bg shapes -->
+  <!-- <img src="images/backgrounds/map.png" alt="map" class="img-fluid bg-map">
+  <img src="images/illustrations/dots-group-v.png" alt="bg-shape" class="img-fluid bg-shape-1">
+  <img src="images/illustrations/leaf-cyan.png" alt="bg-shape" class="img-fluid bg-shape-2">
+  <img src="images/illustrations/dots-group-sm.png" alt="bg-shape" class="img-fluid bg-shape-3">
+  <img src="images/illustrations/leaf-pink-round.png" alt="bg-shape" class="img-fluid bg-shape-4">
+  <img src="images/illustrations/leaf-yellow.png" alt="bg-shape" class="img-fluid bg-shape-5"> -->
+</section>
+<!-- /testimonial -->
+
+
+
+
+
+
+
+<!-- services -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Areas of Experience</h2>
+      </div>
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card hover-shadow shadow">
+          <div class="card-body text-center px-4 py-5">
+            <i class="ti-palette icon mb-5 d-inline-block"></i>
+            <h4 class="mb-4">Web/UI Design</h4>
+            <p>Multiple years of industry and academic experience with creating websites and UX/UI Design.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card active-bg-primary hover-shadow shadow">
+          <div class="card-body text-center px-4 py-5">
+            <i class="ti-comment-alt icon mb-5 d-inline-block"></i>
+            <h4 class="mb-4">Natural Language Processing</h4>
+            <p>Academic experience with NLP and linguistics at Berkeley and industry experience at Microsoft in Natural Language Processing and Artificial Intelligence. </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card hover-shadow shadow">
+          <div class="card-body text-center px-4 py-5">
+            <i class="ti-mobile icon mb-5 d-inline-block"></i>
+            <h4 class="mb-4">Mobile Design</h4>
+            <p>Android mobile application development experience in a project based environment.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /services -->
+
+<!-- portfolio -->
+<!-- <section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Portfolio</h2>
+      </div>
+    </div>
+    <div class="row shuffle-wrapper">
+      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/item-1.png" alt="portfolio-image" class="img-fluid rounded w-100">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/item-2.png" alt="portfolio-image" class="img-fluid rounded ">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/item-3.png" alt="portfolio-image" class="img-fluid rounded w-100">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/item-4.png" alt="portfolio-image" class="img-fluid rounded w-100">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/item-5.png" alt="portfolio-image" class="img-fluid rounded w-100">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- /portfolio -->
+
+
+<!-- client logo slider -->
+<!-- <section class="section pb-0">
+  <div class="container">
+    <div class="client-logo-slider d-flex align-items-center">
+      <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+          src="images/clients-logo/client-logo-1.png" alt="client-logo"></a>
+      <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+          src="images/clients-logo/client-logo-2.png" alt="client-logo"></a>
+      <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+          src="images/clients-logo/client-logo-3.png" alt="client-logo"></a>
+      <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+          src="images/clients-logo/client-logo-4.png" alt="client-logo"></a>
+      <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+          src="images/clients-logo/client-logo-5.png" alt="client-logo"></a>
+      <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+          src="images/clients-logo/client-logo-1.png" alt="client-logo"></a>
+      <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+          src="images/clients-logo/client-logo-2.png" alt="client-logo"></a>
+      <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+          src="images/clients-logo/client-logo-3.png" alt="client-logo"></a>
+      <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+          src="images/clients-logo/client-logo-4.png" alt="client-logo"></a>
+      <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+          src="images/clients-logo/client-logo-5.png" alt="client-logo"></a>
+    </div>
+  </div>
+</section> -->
+<!-- /client logo slider -->
+
+<!-- <footer class="bg-dark footer-section">
+
+  <div class="column" style="font-size:40px; text-align:center; margin-bottom:2%"
+      <a class="mb-3"><a class="text-white" href="https://linkedin.com/in/alexandria-storm"><i class="ti-linkedin" style="padding:0 2rem 2.5rem 0px"></i></a>
+      <a class="mb-3"><a class="text-white" href="mailto:alexandriastorm99@gmail.com"><i class="ti-email" style="padding:0 2.5rem 2.5rem 0px"></i></a>
+      <a class="mb-3"><a class="text-white" href="https://github.com/alexandriastorm"><i class="ti-github" style="padding:0 2.5rem 2.5rem 0px"></i></a>
+      <a class="mb-3"><a class="text-white" href="https://twitter.com/axstorm24"><i class="ti-twitter" style="padding:0 2.5rem 2.5rem 0px"></i></a>
+      <a class="mb-3"><a class="text-white" href="https://medium.com/@alexandriastorm/"><i class="ti-desktop" style="padding:0 2.5rem 2.5rem 0px"></i></a>
+      <a class="mb-3"><a class="text-white" href="https://dribbble.com/alexandriastorm/"><i class="ti-dribbble" style="padding:0 2.5rem 2.5rem 0px"></i></a>
+  </div>
+  <div class="border-top text-center border-dark py-5">
+    <p class="mb-0 text-light">Copyright ©<script>
+        var CurrentYear = new Date().getFullYear()
+        document.write(CurrentYear)
+      </script> Alexandria Storm</a></p>
+  </div>
+</footer> -->
+
+
+<!-- /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- filter -->
+<script src="plugins/shuffle/shuffle.min.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
